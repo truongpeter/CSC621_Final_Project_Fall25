@@ -46,3 +46,7 @@ def main(_):
 	return {"output_image": image}
 
 print("in test.py")
+
+image = main(1)["output_image"]
+
+sitk.Show(image)
