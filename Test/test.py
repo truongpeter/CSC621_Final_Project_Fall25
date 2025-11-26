@@ -2,7 +2,10 @@ import os
 import sys
 import SimpleITK as sitk
 
-# (how the heck do use image viewer)
+#use in termanal that's the same as running this file
+#export SITK_SHOW_COMMAND=~/Downloads/fiji-latest-linux64-jdk/Fiji/fiji
+
+#subject to change if there's a fair way to do this automatically
 #image_viewer = sitk.ImageViewer()
 #image_viewer.SetApplication ("~/Downloads/fiji-latest-linux64-jdk/Fiji/fiji")
 
